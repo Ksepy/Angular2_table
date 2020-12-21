@@ -1,0 +1,18 @@
+:host {
+  display: block;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+:host ::ng-deep p {
+  color: darkviolet;
+
+}
+
+
+.col-9 {
+  margin-left: 30%;
+  margin-top: -20%;
+  padding-right: 30%;
+}

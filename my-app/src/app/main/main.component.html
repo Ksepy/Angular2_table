@@ -1,0 +1,33 @@
+<div class="container-fluid">
+  <div class="col-xl-3 ">
+
+    <!--<button [routerLink] ="'/book'" routerLinkActive="active-link" class="btn btn-outline-primary btn-block mb-1">BOOK</button>
+      <button [routerLink] = "'/test'" routerLinkActive="active-link" class="btn btn-outline-primary btn-block mb-1">TEST</button>-->
+
+      <div class="col-3">
+        <button [routerLink] ="'/main/stage1'" routerLinkActive="active-link" class="btn btn-outline-primary btn-block mb-2">
+          Stage1
+        </button>
+      </div>
+
+      <div class="col-3">
+        <button [routerLink] ="'/main/stage2'" routerLinkActive="active-link" class="btn btn-outline-primary btn-block mb-2">
+          Stage2
+        </button>
+      </div>
+
+      <div class="col-3">
+        <button [routerLink] ="'/main/stage3'" routerLinkActive="active-link" class="btn btn-outline-primary btn-block mb-2">
+          Stage3
+        </button>
+      </div>
+
+      <div class="row">
+          <div class="col-9" >
+            <router-outlet class="row"></router-outlet>
+          </div>
+      </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,9 @@
+<h2>Book name</h2>
+<p>
+  book description<br>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, eum explicabo facere illo, magnam mollitia odio officia perferendis perspiciatis quia quibusdam, quo velit vero! Ab exercitationem facere itaque natus rem?
+</p>
+<app-chapter title="First chapter" [desc] = "chapterDesc" (chapterEvent)="show($event)"></app-chapter>
+<app-chapter [title]="chapterNames[0]"></app-chapter>
+<app-chapter [title]="getChapterName()"></app-chapter>
+

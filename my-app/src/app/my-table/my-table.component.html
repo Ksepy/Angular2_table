@@ -1,0 +1,19 @@
+<table class="table table-striped">
+  <thead class="table-secondary">
+    <tr scope="colgroup">
+      <th scope="col"># </th>
+      <th scope="col">Number</th>
+      <th scope="col">Price</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+<tbody>
+<tr *ngFor="let product of productsList; let i = index">
+  <th scope="row">{{product.id}}</th>
+  <th scope="row">{{product.name}}</th>
+  <th scope="row">{{product.price}}</th>
+  <th><button type="button" class="btn btn-danger" (click)="deleteProduct(product)">
+    Delete</button></th>
+</tr>
+</tbody>
+</table>
